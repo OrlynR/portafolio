@@ -20,6 +20,20 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <style>
+    .title{
+      animation: text 4s 1 ;
+    }
+
+    .social-link:hover{
+      background-color:  #3c006dc4 !important;
+    }
+
+    @keyframes text{
+      from {color:#2c2b2b73;}
+      to {color: #f2f2f2;}
+    }
+  </style>
 
 </head>
 
@@ -52,10 +66,17 @@
   <!-- Header -->
   <header class="d-flex" style="background-color:#651d9f; color: #ffffff ; height: 500px">
     <div class="container text-center my-auto">
-      <h1 class="mb-2" style="font-size: 58px">Orlyn Rosales</h1>
-      <h3 class="mb-5" style="font-size: 30px">
-        <em>Desarrollador Web</em>
-      </h3>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col col-12 col-md-4">
+          <img src="./img/IMG_3401.JPG" alt="" style="border-radius:150px; widows: 300px; height: 300px; opacity: 0.7;">
+        </div>
+        <div class="col col-12 col-md-8 m-0 title">
+          <h1 class="mb-2" style="font-size: 58px">Orlyn Rosales</h1>
+          <h3 class="mb-5 " style="font-size: 30px">
+            <em>Desarrollador Web</em>
+          </h3>
+        </div>
+      </div>  
     </div>
     <div class="overlay"></div>
   </header>
@@ -66,7 +87,8 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2 style="font-size: 48px">SOBRE MI</h2>
-          <p class="lead mt-4 mb-5">Elaboración de proyectos de desarrollo web tanto en el ámbito de FrontEnd como BackEnd</p>
+          <h4 class="mt-4"><strong>Bienvenido!</strong></h4>
+          <p class="lead mb-5 ">Soy Orlyn Rosales apasionada a la tecnología, estudié Ingeniera Civil pero actualmente me desempeño como Desarrolladora Web con conocimientos en el ambitó de FrontEnd y BackEnd. Lo maravilloso de la Ingeniería  es que nos permite expandir nuestra curiosidad a todas sus aplicaciones.</p>
         </div>
       </div>
     </div>
@@ -79,7 +101,7 @@
         <h2 class="mb-5">Habilidades</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-html5" style="color:#651d9f"></i>
           </span>
@@ -87,7 +109,7 @@
             <strong>HTML5</strong>
           </h4>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-css3" style="color:#651d9f"></i>
           </span>
@@ -95,7 +117,7 @@
             <strong>CSS3</strong>
           </h4>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-js" style="color:#651d9f"></i>
           </span>
@@ -103,7 +125,7 @@
             <strong>JS</strong>
           </h4>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-sass" style="color:#651d9f"></i>
           </span>
@@ -111,7 +133,7 @@
             <strong>SASS</strong>
           </h4>
         </div>
-        <div class="col-lg-3 col-md-6" >
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4" >
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-bootstrap" style="color:#651d9f"></i>
           </span>
@@ -119,12 +141,20 @@
             <strong>BOOTSTRAP</strong>
           </h4>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-node-js" style="color:#651d9f"></i>
           </span>
           <h4>
             <strong>NODE JS</strong>
+          </h4>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-4">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fab fa-wordpress" style="color:#651d9f"></i>
+          </span>
+          <h4>
+            <strong>WORDPRESS</strong>
           </h4>
         </div>
       </div>

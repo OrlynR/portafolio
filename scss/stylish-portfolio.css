@@ -120,7 +120,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
           transform: translateX(250px);
-  background: #1d909f;
+  background: #7a1d9f;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -200,7 +200,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1d909f;
+  color: #7a1d9f;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -289,7 +289,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 144, 159, 0.9);
+    background-color: rgba(122, 29, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -306,7 +306,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1d909f;
+  background-color: #7a1d9f;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -314,27 +314,27 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #156974;
+  background-color: #3c006dc4 !important;
   text-decoration: none;
 }
 
 a {
-  color: #1d909f;
+  color: #7a1d9f;
 }
 
 a:hover, a:focus, a:active {
-  color: #156974;
+  color: #591574;
 }
 
 .btn-primary {
-  background-color: #1d909f !important;
-  border-color: #1d909f !important;
+  background-color: #7a1d9f !important;
+  border-color: #7a1d9f !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #156974 !important;
-  border-color: #156974 !important;
+  background-color: #591574 !important;
+  border-color: #591574 !important;
 }
 
 .btn-secondary {
@@ -359,11 +359,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1d909f !important;
+  background-color: #7a1d9f !important;
 }
 
 .text-primary {
-  color: #1d909f !important;
+  color: #7a1d9f !important;
 }
 
 .text-secondary {
