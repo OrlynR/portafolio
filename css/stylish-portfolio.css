@@ -235,7 +235,7 @@ h6 {
   z-index: 1;
 }
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #0000;
   margin: auto 2rem 2rem;
 }
 .portfolio-item .caption .caption-content h2 {
@@ -258,9 +258,9 @@ h6 {
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
